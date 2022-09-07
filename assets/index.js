@@ -18,6 +18,7 @@ import theDailyDisco from './theDailyDisco.svg';
 import D from './D.png';
 import stableDiffusion1 from './stableDiffusion1.png';
 import stableDiffusion2 from './stableDiffusion2.png';
+import gamingLogo from './gamingLogo.png';
 
 export default {
   stableDiffusion1,
@@ -40,4 +41,5 @@ export default {
   left,
   loader,
   arrow,
+  gamingLogo,
 };
