@@ -10,4 +10,5 @@ const Banner = ({ name, childStyles, parentStyles }) => (
   </div>
 );
 
-export default Banner;
+export default Banner
+
