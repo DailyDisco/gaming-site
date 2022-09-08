@@ -1,4 +1,4 @@
-import { Banner, Iframe } from '../components';
+import { Banner, Gallery } from '../components';
 // import { makeId } from '../utils/makeId';
 
 const Home = () => (
@@ -22,7 +22,7 @@ const Home = () => (
         {/* here we will put the filter */}
         <div className="mt-3 w-full flex flex-wrap justify-start md:justify-center">
           {[1].map((i) => (
-            <Iframe
+            <Gallery
               key={`gameCover-${i}`}
               gameCover={{
                 i,

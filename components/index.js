@@ -4,11 +4,11 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Button from './Button';
 import Banner from './Banner';
-import Iframe from './Iframe';
+import Gallery from './Gallery';
 
 // import Loader from './Loader';
 
 // import Auth from './Auth';
 
 
-export { Navbar, Footer, Button, Banner, Iframe };
+export { Navbar, Footer, Button, Banner, Gallery };
