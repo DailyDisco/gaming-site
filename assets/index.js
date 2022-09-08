@@ -19,6 +19,7 @@ import D from './D.png';
 import stableDiffusion1 from './stableDiffusion1.png';
 import stableDiffusion2 from './stableDiffusion2.png';
 import gamingLogo from './gamingLogo.png';
+import gameCover1 from './gameCover1.jpg';
 
 export default {
   stableDiffusion1,
@@ -42,4 +43,5 @@ export default {
   loader,
   arrow,
   gamingLogo,
+  gameCover1,
 };
