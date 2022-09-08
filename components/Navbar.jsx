@@ -71,14 +71,14 @@ const navbar = () => {
           <div className="flexCenter md:hidden cursor-pointer" onClick={() => {}}>
             {/* change desktop logo here */}
             <Image src={images.gamingLogo} objectFit="contain" width={32} height={32} alt="logo" />
-            <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">The Gaming Site</p>
+            <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">The Gaming Place</p>
           </div>
         </Link>
         <Link href="/">
           <div className="hidden md:flex cursor-pointer" onClick={() => {}}>
             {/* change mobile logo here */}
             <Image src={images.gamingLogo} objectFit="contain" width={32} height={32} alt="logo" />
-            <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">Gaming Site</p>
+            <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">Gaming Place</p>
           </div>
         </Link>
       </div>
