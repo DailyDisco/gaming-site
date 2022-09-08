@@ -1,4 +1,4 @@
-import { Banner, PhotographyCard } from '../../components';
+import { Banner } from '../../components';
 // import { makeId } from '../utils/makeId';
 
 const Home = () => (
@@ -6,10 +6,10 @@ const Home = () => (
     <div className="w-full minmd:w-4/5">
       <Banner
           // this next line allows us to make our banner customizable on the whole app
-          name="This our about section"
-          childStyles="md:text-4xl sm:text-2xl xs=text-xl text-left"
-          parentStyles="justify-start mb-6 h-72 sm:h-60 p-12 xs:p-4 xs:h-44 rounded-3xl"
-        />
+        name="This our about section"
+        childStyles="md:text-4xl sm:text-2xl xs=text-xl text-left"
+        parentStyles="justify-start mb-6 h-72 sm:h-60 p-12 xs:p-4 xs:h-44 rounded-3xl"
+      />
       {/* this is the div for created nfts */}
       <div className="mt-10">
         <div className="flexBetween mx-4 xs:mx-0 minlg:mx-8 sm:flex-col sm:items-start">

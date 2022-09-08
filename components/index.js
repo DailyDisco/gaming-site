@@ -10,5 +10,4 @@ import Gallery from './Gallery';
 
 // import Auth from './Auth';
 
-
 export { Navbar, Footer, Button, Banner, Gallery };
