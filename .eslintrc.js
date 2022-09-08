@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    'next',
   ],
   rules: {
     'no-console': 0,
