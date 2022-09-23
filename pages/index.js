@@ -30,7 +30,6 @@ const Home = () => (
                 // price: (10 - i * 0.535).toFixed(2),
                 // seller: `0x${makeId(3)}...${makeId(4)}`,
                 // owner: `0x${makeId(3)}...${makeId(4)}`,
-                description: 'Art produced with Stable Diffusion prompt engineering',
               }}
             />
           ))}
